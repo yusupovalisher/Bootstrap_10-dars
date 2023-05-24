@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main2.css">
+</head>
+
+<!--
+    Bootstrap ranglari: 1.muted - kuldrang; 2.primary-ko'k; 3.success-yashil;
+    4.info - havorang; 5.warning - sariq; 6.danger - qizil; 7.secondary - och-kuldrang;
+    8.dark - qora; 9.white(light) - oq.
+-->
+<body style="background-color: wheat">
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <button type="button" class="btn bg-white py-4 text-left" style="width: 100%;font-size: 27px">Account settings</button>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <button type="button" class="btn py-3 text-left bg-white" data-toggle="collapse" data-target="#box1" style="width: 100%;font-size: 23px">Personal information<a href="#" class="float-right" style="color: black">🢓</a></button>
+                <ul class="list-group list-group-flush">
+                    <li class="p-2 bg-white collapse" style="margin-top: -10px" id="box1">
+                        <hr style="border: 1px solid lightgrey">
+                        <div class="card" style="border: 1px solid white">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <form action="#" method="get">
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="login4">Account name*</label>
+                                                    <input type="text" id="login4" placeholder="Account name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="login5">User name*</label>
+                                                    <input type="text" id="login5" placeholder="User name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="font-size: 14px">
+                                                <p>Sizning tizimdagi accountingiz: https://pinup.uz/account/<strong>accountName</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="company4">Email adress*</label>
+                                                    <input type="text" id="company4" placeholder="Email adress" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="pass">Password*</label>
+                                                    <input type="text" id="pass" placeholder="Your password" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="con">Confirm password*</label>
+                                                    <input type="text" id="con" placeholder="Confirm password" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="line7">Site address</label>
+                                                    <input type="text" id="line7" placeholder="Your web site address" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn py-3 text-left bg-white" data-toggle="collapse" data-target="#box2" style="width: 100%;font-size: 23px">Profile image & cover<a href="#" class="float-right" style="color: black">🢓</a></button>
+                <ul class="list-group list-group-flush">
+                    <li class="p-2 bg-white collapse" style="margin-top: -10px" id="box2">
+                        <hr style="border: 1px solid lightgrey">
+                        <div class="card" style="border: 1px solid white">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <form action="#" method="get">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="rasmlar/pr.png" height="100" width="100" style="border-radius: 100%;margin-top: -23px;margin-bottom: -25px;border: 1px lightgray solid"/>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><strong>Profile image</strong></p>
+                                                <p class="text-secondary" style="margin-top: -20px">JPG,GIF or PNG 100x100px</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <button type="button" class="btn btn-success text-white" style="margin-left: -30px">Upload image</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <button type="button" class="btn py-3 text-left bg-white" data-toggle="collapse" data-target="#box3" style="width: 100%;font-size: 23px">Billing information<a href="#" class="float-right" style="color: black">🢓</a></button>
+                <ul class="list-group list-group-flush">
+                    <li class="p-2 bg-white collapse" style="margin-top: -10px" id="box3">
+                        <hr style="border: 1px solid lightgrey">
+                        <div class="card" style="border: 1px solid white">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <form action="#" method="get">
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="login">First name*</label>
+                                                    <input type="text" id="login" placeholder="First name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="login1">Last name*</label>
+                                                    <input type="text" id="login1" placeholder="Last name" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="Company">Company name*</label>
+                                                    <input type="text" id="Company" placeholder="Company name" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="company1">Email adress*</label>
+                                                    <input type="text" id="company1" placeholder="Email adress" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="region">Country</label>
+                                                    <select name="region" id="region" class="form-control">
+                                                        <option value="1">Select one</option>
+                                                        <option value="2">Samarqand</option>
+                                                        <option value="3">Jizzax</option>
+                                                        <option value="4">Xorazm</option>
+                                                        <option value="5">Buxoro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="line1">Address line 1*</label>
+                                                    <input type="text" id="line1" placeholder="Your address" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-size: 17px">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="line2">Address line 2*</label>
+                                                    <input type="text" id="line2" placeholder="Your address" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn py-3 text-left bg-white" data-toggle="collapse" data-target="#box4" style="width: 100%;font-size: 23px">Social profile<a href="#" class="float-right" style="color: black">🢓</a></button>
+                <ul class="list-group list-group-flush">
+                    <li class="p-2 bg-white collapse" style="margin-top: -10px" id="box4">
+                        <div class="card" style="border: 1px solid white">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <form action="#" method="get">
+                                        <div class="form-group">
+                                            <div class="row my-2" style="width: 100%">
+                                                <div class="col-md-1">
+                                                    <img src="rasmlar/fa.png" height="45" width="45" style="border-radius: 100%;margin-bottom: 5px"/>
+                                                </div>
+                                                <div class="col-md-11">
+                                                    <input type="text" style="width: 420px;margin-left: 25px;margin-top: 8px" placeholder="ex:www.facebook.com/username">
+                                                </div>
+                                            </div>
+                                            <div class="row my-2" style="width: 100%">
+                                                <div class="col-md-1">
+                                                    <img src="rasmlar/te.png" height="45" width="45" style="border-radius: 100%;margin-bottom: 5px"/>
+                                                </div>
+                                                <div class="col-md-11">
+                                                    <input type="text" style="width: 420px;margin-left: 25px;margin-top: 8px" placeholder="ex:www.t.me/username">
+                                                </div>
+                                            </div>
+                                            <div class="row my-2" style="width: 100%">
+                                                <div class="col-md-1">
+                                                    <img src="rasmlar/tw.png" height="45" width="45" style="border-radius: 100%;margin-bottom: 5px"/>
+                                                </div>
+                                                <div class="col-md-11">
+                                                    <input type="text" style="width: 420px;margin-left: 25px;margin-top: 8px" placeholder="ex:www.twitter.com/username">
+                                                </div>
+                                            </div>
+                                            <div class="row my-2" style="width: 100%">
+                                                <div class="col-md-1">
+                                                    <img src="rasmlar/in.jpg" height="45" width="45" style="border-radius: 100%;margin-bottom: 5px"/>
+                                                </div>
+                                                <div class="col-md-11">
+                                                    <input type="text" style="width: 420px;margin-left: 25px;margin-top: 8px" placeholder="ex:www.instagram">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn py-3 text-left bg-white" data-toggle="collapse" data-target="#box5" style="width: 100%;font-size: 23px">Contact settings<a href="#" class="float-right" style="color: black">🢓</a></button>
+                <ul class="list-group list-group-flush">
+                    <li class="p-2 bg-white collapse" style="margin-top: -10px" id="box5">
+                        <div class="card" style="border: 1px solid white">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <form action="#" method="get">
+                                        <div class="form-group">
+                                            <input type="checkbox">
+                                            <label style="font-size: 14px;margin-left: 9px;margin-bottom: -30px"><strong>Telefon raqamini ko'rsatish</strong></label>
+                                            <label style="font-size: 14px;margin-left: 27px;margin-bottom: -30px">Telefon raqamingizni ko'rsatish yoki yashirish</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-2 offset-5">
+                <button type="button" class="btn btn-block btn-primary text-white">Save</button>
+            </div>
+        </div>
+<!--        <div class="row my-5">-->
+<!--            <div class="col-md-12">-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

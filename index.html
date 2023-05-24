@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group">
+                        <form action="#" method="get">
+                            <div class="form-group">
+                                <label for="login">Loginni kiriting</label>
+                                <input type="text" id="login" placeholder="Loginni kiriting..." class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Parolni kiriting</label>
+                                <input type="password" id="password" placeholder="Parolni kiriting">
+                            </div>
+                            <div class="form-group">
+                                <label for="dist">Qo'shimcha ma'lumot </label>
+                                <textarea id="dist" class="form-control" placeholder="Qo'shimcha ma'lumot"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="region">Regionni tanlang</label>
+                                <select name="region" id="region" class="form-control">
+                                    <option value="1">Toshkent</option>
+                                    <option value="2">Samarqand</option>
+                                    <option value="3">Jizzax</option>
+                                    <option value="4">Xorazm</option>
+                                    <option value="5">Buxoro</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-success ">Tizimga kirish</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <form action="#">
+                <div class="input-group-prepend">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                        All categories
+                    </button>
+                    <input type="text" class="form-control" id="search" placeholder="Search">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-group">&telrec;</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
